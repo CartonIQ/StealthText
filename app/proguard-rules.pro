@@ -1,0 +1,3 @@
+-keep class javax.crypto.** { *; }
+-keep class android.media.MediaRecorder { *; }
+-dontwarn javax.crypto.**
